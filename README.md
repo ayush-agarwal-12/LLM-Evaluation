@@ -35,7 +35,6 @@ python evaluator.py
 
 ## File Structure
 ```
-project/
 ├── evaluator.py              # Main orchestrator
 ├── conversation.json         # Chat history
 ├── context.json              # Retrieved context chunks
@@ -303,5 +302,6 @@ logging.basicConfig(level=logging.DEBUG)
 2. **Context-aware evaluation** only processes relevant turns
 3. **Graduated fallbacks** balance speed and reliability
 4. **Cost optimization** through Groq API and efficient sampling
+
 
 ---
